@@ -1,4 +1,4 @@
-# bazzite-tj5miniop &nbsp; [![build-ublue](https://github.com/tj5miniop/bazzite-tj5miniop/actions/workflows/build.yml/badge.svg)](https://github.com/tj5miniop/bazzite-tj5miniop/actions/workflows/build.yml)
+# aurora-tj5miniop &nbsp; [![build-ublue](https://github.com/tj5miniop/bazzite-tj5miniop/actions/workflows/build.yml/badge.svg)](https://github.com/tj5miniop/bazzite-tj5miniop/actions/workflows/build.yml)
 
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
@@ -13,7 +13,7 @@ To rebase an existing atomic Fedora installation to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/tj5miniop/bazzite-tj5miniop:latest
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/tj5miniop/aurora-tj5miniop:latest
   ```
 - Reboot to complete the rebase:
   ```
@@ -21,7 +21,7 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
 - Then rebase to the signed image, like so:
   ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/tj5miniop/bazzite-tj5miniop:latest
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/tj5miniop/aurora-tj5miniop:latest
   ```
 - Reboot again to complete the installation
   ```
