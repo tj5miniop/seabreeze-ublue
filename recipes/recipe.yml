@@ -31,7 +31,13 @@ modules:
       podman
       distrobox
       fish
+      kitty
+      plasma-pa
+      plasma-nm
+      papirus-icon-theme
+      kvantum
     remove:
+      konsole
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       # - firefox
