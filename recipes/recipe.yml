@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: ublue-tj5miniop
+name: kinoite-custom-tj5miniop
 # description will be included in the image's metadata
 description: This is my personal OS image.
 
