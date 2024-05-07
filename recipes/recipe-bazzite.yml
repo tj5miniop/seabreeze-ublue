@@ -25,8 +25,7 @@ modules:
       - htop
       - fastfetch
       - qemu
-      - virt-manager
-      - libvirtd 
+      - virt-manager 
       - flatpak
       - podman
       - distrobox
