@@ -1,3 +1,68 @@
-# aurora-tj5miniop &nbsp; [![build-ublue](https://github.com/tj5miniop/ublue-image-custom/actions/workflows/build.yml/badge.svg)](https://github.com/tj5miniop/ublue-image-custom/actions/workflows/build.yml)
+# Welcome to My Custom Kinoite and Bazzite Builds
 
-[![bluebuild](https://github.com/tj5miniop/ublue-images/actions/workflows/build.yml/badge.svg?event=deployment)](https://github.com/tj5miniop/ublue-images/actions/workflows/build.yml)
+## Overview
+
+This repo contains my custom builds of Fedora Kinoite and Bazzite OS from Universal blue. Each have been made to suit my needs and may suit yours as well!
+
+### Key Features 
+
+- Virtualization with QEMU available on all editions, except for the Steam Deck image
+- Essential daily tools pre-installed on Kinoite-based images
+- Papirus icon theme and Kvantum included across all images for consistent aesthetics
+- Stock KDE Plasma 6 desktop on Kinoite-based images, providing a customizable foundation
+- Seamless containerization using Podman and Distrobox to run Linux distros within other distros
+
+## Installation
+## Installation
+
+Get started with my custom builds:
+
+1. **Choose Your Edition**: Select the edition that best suits your hardware and preferences:
+   - **Seabreeze OS**: Main image based on Kinoite for AMD and Intel users.
+   - **Seabreeze Nvidia**: Variant for users with NVIDIA graphics cards.
+   - **Seabreeze Gamer**: Edition optimized for gaming enthusiasts.
+   - **Seabreeze Gamer Deck**: Specifically tailored for gaming on handheld devices.
+   - **Seabreeze Gamer Nvidia**: Gaming edition for users with NVIDIA GPUs.
+
+
+2. **Rebase Using rpm-ostree**:
+
+To install this on your system
+   - For Seabreeze OS (Kinoite-based):
+     ```bash
+     rpm-ostree rebase ostree-unverified-registry:ghcr.io/tj5miniop/seabreeze-os:latest
+     systemctl reboot
+     ```
+
+   - For Seabreeze OS for NVIDIA users:
+     ```bash
+     rpm-ostree rebase ostree-unverified-registry:ghcr.io/tj5miniop/seabreeze-nvidia:latest
+     systemctl reboot
+     ```
+
+   - For Seabreeze OS (Based on Bazzite):
+     ```bash
+     rpm-ostree rebase ostree-unverified-registry:ghcr.io/tj5miniop/seabreeze-gamer:latest
+     systemctl reboot
+     ```
+
+   - For Seabreeze OS (Based on Bazzite) for Steam Deck:
+     ```bash
+     rpm-ostree rebase ostree-unverified-registry:ghcr.io/tj5miniop/seabreeze-gamer-deck:latest
+     systemctl reboot
+     ```
+
+   - For Seabreeze OS (Based on Bazzite) for NVIDIA users:
+     ```bash
+     rpm-ostree rebase ostree-unverified-registry:ghcr.io/tj5miniop/seabreeze-gamer-nvidia:latest
+     systemctl reboot
+     ```
+
+
+## Get Involved
+
+Contributions, feedback, and suggestions are welcome! Feel free to [open an issue](https://github.com/tj5miniop/seabreeze-ublue-images/issues) or submit a pull request to improve these builds.
+
+## Verification
+
+All images are digitally signed to ensure authenticity and integrity. For verification instructions, refer to the documentation provided by Universal Blue 
