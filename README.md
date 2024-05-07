@@ -1,5 +1,8 @@
 # Welcome to My Custom Kinoite and Bazzite Builds
 
+********NOTICE - I am Having some issues in terms of storage which may lead to the migration of some of these images onto a different repo******** 
+
+
 ## Overview
 
 This repo contains my custom builds of Fedora Kinoite and Bazzite OS from Universal blue. Each have been made to suit my needs and may suit yours as well!
