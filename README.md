@@ -27,7 +27,12 @@ Get started with my custom builds:
 
 2. **Rebase Using rpm-ostree**:
 
-To install this on your system
+To install this on your system, you will already need to have a fedora immutable distro on it already. I doesn't matter which one it is!
+
+You can also rebase to any of these images whenever you like, all your data will be saved. It is reccomended to put the stock KDE plasma "Breeze" or "Breeze Dark" theme on as custom themes may be deleted/corrupted during the upgrade
+
+Here are the editions you can use - just open your terminal and run these commands - 
+
    - For Seabreeze OS (Kinoite-based):
      ```bash
      rpm-ostree rebase ostree-unverified-registry:ghcr.io/tj5miniop/seabreeze-os:latest
