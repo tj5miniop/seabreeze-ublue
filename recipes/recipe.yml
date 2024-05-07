@@ -22,20 +22,19 @@ modules:
     install:
       # - micro
       # - starship
-      htop
-      fastfetch
-      qemu
-      virt-manager
-      libvirtd 
-      flatpak
-      podman
-      distrobox
-      fish
-      kitty
-      plasma-pa
-      plasma-nm
-      papirus-icon-theme
-      kvantum
+       - htop
+       - fastfetch
+       - qemu
+       - virt-manager 
+       - flatpak
+       - podman
+       - distrobox
+       - fish
+       - kitty
+       - plasma-pa
+       - plasma-nm
+       - papirus-icon-theme
+       - kvantum
     remove:
       konsole
       # example: removing firefox (in favor of the flatpak)
@@ -47,14 +46,16 @@ modules:
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
       # If no repo information is specified, Flathub will be used by default
-      # repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      # repo-name: flathub
-      # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
+      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      repo-name: flathub
+      repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
-        - org.mozilla.firefox
-        - org.kde.ktorrent
-        - com.vscodium.codium
-        - org.gnome.Boxes
+         - org.mozilla.firefox
+         - org.kde.ktorrent
+         - com.vscodium.codium
+         - org.gnome.Boxes
+         - org.gnome.World.PikaBackup
+         - io.github.dvlv.boxbuddyrs
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
