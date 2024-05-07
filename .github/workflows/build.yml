@@ -21,8 +21,12 @@ jobs:
       fail-fast: false # stop GH from cancelling all matrix builds if one fails
       matrix:
         recipe:
-          # !! Add your recipes here 
-          - recipe.yml
+          # Added
+          - seabreeze-gamer-deck.yml
+          - seabreeze-gamer-nvidia.yml
+          - seabreeze-gamer.yml
+          - seabreeze-nvidia.yml
+          - seabreeze.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
