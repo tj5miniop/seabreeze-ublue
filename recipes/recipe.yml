@@ -4,7 +4,7 @@ name: seabreeze-os
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/kinoite-main
+base-image: ghcr.io/ublue-os/bazzite
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -30,13 +30,15 @@ modules:
        - podman
        - distrobox
        - fish
-       - kitty
        - plasma-pa
        - plasma-nm
        - papirus-icon-theme
        - kvantum
     remove:
-      konsole
+      - konsole
+      - kate 
+      - kfrb 
+      - kde-connect
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       # - firefox
@@ -56,6 +58,7 @@ modules:
          - org.gnome.Boxes
          - org.gnome.World.PikaBackup
          - io.github.dvlv.boxbuddyrs
+         - io.github.shiftey.Desktop
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
