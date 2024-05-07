@@ -1,4 +1,4 @@
-# aurora-tj5miniop &nbsp; [![build-ublue](https://github.com/tj5miniop/bazzite-tj5miniop/actions/workflows/build.yml/badge.svg)](https://github.com/tj5miniop/bazzite-tj5miniop/actions/workflows/build.yml)
+# aurora-tj5miniop &nbsp; [![build-ublue](https://github.com/tj5miniop/ublue-image-custom/actions/workflows/build.yml/badge.svg)](https://github.com/tj5miniop/ublue-image-custom/actions/workflows/build.yml)
 
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
