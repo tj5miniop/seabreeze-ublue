@@ -4,7 +4,7 @@ name: seabreeze-gamer-deck
 description: Based on Bazzite's Steam Deck image. Inlcudes the latest builds
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/bazzite-gamer
+base-image: ghcr.io/ublue-os/bazzite-deck
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
