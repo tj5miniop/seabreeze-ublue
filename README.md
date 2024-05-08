@@ -13,7 +13,7 @@ This repo contains my custom builds of Fedora Kinoite and Bazzite OS from Univer
 - Essential daily tools pre-installed on Kinoite-based images
 - Papirus icon theme and Kvantum included across all images for consistent aesthetics
 - Stock KDE Plasma 6 desktop on Kinoite-based images, providing a customizable foundation
-- Seamless containerization using Podman and Distrobox to run Linux distros within other distros
+- Seamless containerization using Podman and Distrobox ,with the GUI app Box Buddy,to run Linux distros within other distros
 
 ## Installation
 ## Installation
