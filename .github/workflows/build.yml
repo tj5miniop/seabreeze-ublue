@@ -22,7 +22,6 @@ jobs:
       matrix:
         recipe:
           # Added
-          - seabreeze-gamer-deck.yml
           - seabreeze-gamer-nvidia.yml
           - seabreeze-gamer.yml
           - seabreeze-nvidia.yml
