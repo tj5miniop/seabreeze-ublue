@@ -1,16 +1,16 @@
-# Welcome to My Custom Kinoite and Bazzite Builds
+# Welcome to My Custom Aurora-DX and Bazzite Builds
 
-********NOTICE - I am Having some issues in terms of storage which may lead to the migration of some of these images onto a different repo******** 
+********NOTICE - If you are looking for the Steam Deck Gaming image - it has now been moved to https://github.com/tj5miniop/seabreeze-gamer-deck due to the images collectively using up to much storage on GitHub*******
 
 
 ## Overview
 
-This repo contains my custom builds of Fedora Kinoite and Bazzite OS from Universal blue. Each have been made to suit my needs and may suit yours as well!
+This repo contains my custom builds of Universal Blue's Aurora-DX and Bazzite atomic desktops. Each have been made to suit my needs and may suit yours as well!
 
 ### Key Features 
 
 - Virtualization with QEMU available on all editions, except for the Steam Deck image
-- Essential daily tools pre-installed on Kinoite-based images
+- Tools pre-installed on the Aurora-based images
 - Papirus icon theme and Kvantum included across all images for consistent aesthetics
 - Stock KDE Plasma 6 desktop on Kinoite-based images, providing a customizable foundation
 - Seamless containerization using Podman and Distrobox ,with the GUI app Box Buddy,to run Linux distros within other distros
