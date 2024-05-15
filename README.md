@@ -1,6 +1,6 @@
 # Welcome to My Custom Aurora-DX and Bazzite Builds
 
-********NOTICE - If you are looking for the Steam Deck Gaming image - it has now been moved to https://github.com/tj5miniop/seabreeze-gamer-deck due to the images collectively using up to much storage on GitHub*******
+********NOTICE - If you are looking for the Steam Deck Gaming image - it has now been moved to https://github.com/tj5miniop/seabreeze-deck due to the images collectively using up to much storage on GitHub*******
 
 
 ## Overview
