@@ -4,7 +4,7 @@ name: seabreeze-os-nvidia
 description: Tweaked Image Based On Fedora Kinoite. For use on Nvidia GPUs
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/aurora-dx-nvidia
+base-image: ghcr.io/ublue-os/bazzite-nvidia
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -46,6 +46,15 @@ modules:
       repo-name: flathub
       repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
+         - com.brave.Browser
+         - org.kde.ktorrent
+         - com.vscodium.codium
+         - io.github.dvlv.boxbuddyrs
+         - io.github.shiftey.Desktop
+         - io.github.fastrizwaan.WineZGUI
+         - com.github.tchx84.Flatseal
+         - net.davidotek.pupgui2
+         - com.discordapp.Discord
          - org.mozilla.firefox
          - org.kde.ktorrent
         # - org.gnome.Loupe
