@@ -47,6 +47,7 @@ modules:
       repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
          - com.brave.Browser
+         - com.atlauncher.ATLauncher
          - org.kde.ktorrent
          - com.vscodium.codium
          - io.github.dvlv.boxbuddyrs
