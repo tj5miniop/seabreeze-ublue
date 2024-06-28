@@ -24,7 +24,7 @@ jobs:
           # Added
         #  - seabreeze-gamer-nvidia.yml
           - seabreeze-gamer.yml
-          - seabreeze-nvidia.yml
+       #   - seabreeze-nvidia.yml
           - seabreeze.yml
     steps:
        # the build is fully handled by the reusable github action
